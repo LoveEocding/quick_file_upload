@@ -1,0 +1,27 @@
+{
+  "name": "quick_file_upload",
+  "version": "1.0.0",
+  "description": "webpack插件用于打包结束后上传服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+      "index.js",
+      "package.json"
+  ],
+  "keywords": [
+    "cnd",
+    "file",
+    "upload"
+  ],
+  "author": "nieyao",
+  "license": "ISC",
+  "dependencies": {
+    "ora": "^5.4.0",
+    "request": "^2.88.2"
+  }
+}
