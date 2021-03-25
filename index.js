@@ -43,7 +43,7 @@ class FileToCdn {
     fileUpload(files, url, proxy, extral) {
         const spinner = ora('打包文件正在上传服务器').start();
         request.post({
-            url: url, proxy: proxy, formData: {
+            url: url, strictSSL: false, proxy: proxy, formData: {
                 ...extral,
                 ...files
             }

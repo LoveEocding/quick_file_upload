@@ -1,6 +1,6 @@
 {
   "name": "quick_file_upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack插件用于打包结束后上传服务器",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,10 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "files": [
-      "index.js",
-      "package.json"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LoveEocding/quick_file_upload"
+  },
   "keywords": [
     "cnd",
     "file",
